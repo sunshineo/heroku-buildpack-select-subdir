@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-if [ -z "$BUILDPACK" ]; then
+if [ -z "$SUBDIR" ]; then
     echo "Multipack looking for subdirectory"
     exit 0
 else
-  echo "Missing BUILDPACK config var"
+  echo "Missing SUBDIR config var"
   exit 1
 fi
